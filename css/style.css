@@ -2,6 +2,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
 }
 .section-bg {
     background-image: url(../images/Bitmap.png);
@@ -12,16 +13,15 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    border-top: 20px;
 }
 
 .header{
     width: 100%;
-    height: 42px;
+    height: 45px;
+    padding-top: 20px;
   
 }
 .section-header{
-  
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
@@ -29,16 +29,48 @@ ul.menu-left{
     display: grid;
     grid-template-columns: repeat(3,80px);
     font-size: 12px;
+    justify-items: center;
+    align-content: center;
+    
     
 }
 ul.menu-right{
     display: grid;
     grid-template-columns: repeat(3,120px);
     font-size: 12px;
+    justify-items: center;
+    align-content: center;
+    
     
 }
 ul.menu-left li a{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+    list-style-type: none;
+}
+ul.menu-right li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+.logo img{
+    display: grid;
+    justify-items: center;
+
+}
+li.button{
+    background-color: #00A5F4;
+    padding: 15px 30px;
+    border-radius: 1%;
+}
+li.bar{
+    padding: 15px 0;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 150px;
 }
